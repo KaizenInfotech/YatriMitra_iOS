@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -706,7 +706,6 @@
 				B3EE5E042C0EE591000EE18F /* Frameworks */,
 				B3EE5E052C0EE591000EE18F /* Resources */,
 				921068813F8694CC59F68CDD /* [CP] Embed Pods Frameworks */,
-				7CAEE92BF83CBFDB0362F16A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -853,27 +852,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7CAEE92BF83CBFDB0362F16A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-yatriMitraTests/Pods-yatriMitraTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-yatriMitraTests/Pods-yatriMitraTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yatriMitraTests/Pods-yatriMitraTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		80DAAE8D0C55C2A1588FD0CC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -904,13 +882,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-yatriMitraTests/Pods-yatriMitraTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-yatriMitraTests/Pods-yatriMitraTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1425,7 +1399,7 @@
 			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
 			requirement = {
 				kind = exactVersion;
-				version = 9.4.0;
+				version = 10.6.0;
 			};
 		};
 		B3C94A102DA5199300C90B0F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
@@ -1441,7 +1415,7 @@
 			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
 			requirement = {
 				kind = exactVersion;
-				version = 9.4.1;
+				version = 10.6.0;
 			};
 		};
 		B3C94A142DA519DA00C90B0F /* XCRemoteSwiftPackageReference "dotlottie-ios" */ = {

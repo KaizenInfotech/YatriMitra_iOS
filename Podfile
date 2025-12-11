@@ -7,8 +7,6 @@ target 'yatriMitra' do
   # Pods for yatriMitra
 
   target 'yatriMitraTests' do
-pod 'GoogleMaps', '8.4.0'
-pod 'GooglePlaces', '9.1.0'
 pod 'Alamofire'
 pod 'Firebase'
 pod 'Firebase/Core'
