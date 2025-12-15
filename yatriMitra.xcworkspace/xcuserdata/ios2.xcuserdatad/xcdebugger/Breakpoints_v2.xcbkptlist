@@ -14,8 +14,8 @@
             filePath = "yatriMitra/Controllers/BookACab/BookACabViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2862"
-            endingLineNumber = "2862"
+            startingLineNumber = "2860"
+            endingLineNumber = "2860"
             landmarkName = "calculateFareApiCall()"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "yatriMitra/Controllers/BookACab/BookACabViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2873"
-            endingLineNumber = "2873"
+            startingLineNumber = "2871"
+            endingLineNumber = "2871"
             landmarkName = "calculateFareApiCall()"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "yatriMitra/Controllers/BookACab/BookACabViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2900"
-            endingLineNumber = "2900"
+            startingLineNumber = "2898"
+            endingLineNumber = "2898"
             landmarkName = "calculateFareApiCall()"
             landmarkType = "7">
          </BreakpointContent>

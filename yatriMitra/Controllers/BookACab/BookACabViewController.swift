@@ -211,8 +211,6 @@ class BookACabViewController: UIViewController, MKMapViewDelegate, CancelRide, G
         pleasePayAsPerMeterView.layer.cornerRadius = 12
         pleasePayAsPerMeterView.layer.masksToBounds = true
         pleasePayAsPerMeterView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
-        
-        driverCountLbl.isHidden = true
         whileSearchingRideOption.isHidden = true
         let camera = GMSCameraPosition.camera(withLatitude: 0, longitude: 0, zoom: 10.0)
         mapView = GMSMapView.map(withFrame: self.myMap.bounds, camera: camera)
@@ -3045,11 +3043,11 @@ extension BookACabViewController{
                                 timeslot_pk_bookride_id = pk_bookride_id
                             }
                             print("bookARide() -> pk_bookride_id : \(pk_bookride_id)")
-                            self.driverCountLbl.text = driverCount == 0 ? "Searching for Drivers" : driverCount == 1 ? "\(driverCount ?? 0) driver is currently checking your request" : "\(driverCount ?? 0) drivers are currently checking your request"
+                           
                             DispatchQueue.main.async { [weak self] in
                                 guard let self = self else { return }
                                 self.whileSearchingRideOption.isHidden = false
-                                self.driverCountLbl.isHidden = false
+                                self.driverCountLbl.text = driverCount == 0 ? "Searching for Drivers" : driverCount == 1 ? "\(driverCount ?? 0) driver is currently checking your request" : "\(driverCount ?? 0) drivers are currently checking your request"
                             }
                             
                             UserDefaults.standard.setValue(pkbookrideid, forKey: "bookride_id")
